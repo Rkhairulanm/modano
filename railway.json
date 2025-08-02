@@ -1,8 +1,0 @@
-{
-  "build": {
-    "buildCommand": "docker build -t laravel-app ."
-  },
-  "deploy": {
-    "startCommand": "php artisan serve --host=0.0.0.0 --port=$PORT"
-  }
-}
